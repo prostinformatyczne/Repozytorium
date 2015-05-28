@@ -23,7 +23,7 @@ main()
         }
         while(k==0||n<1||n>10);
         printf("\n Wczytaj tablice b:\n");
-        wczytywanie(b,n);
+        wczytywanieadfgadf(b,n);
         printf("\n\n Tablica a:\n");
         drukowanie(a,m);
         printf("\n\n Tablica b:\n");
