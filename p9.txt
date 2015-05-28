@@ -21,7 +21,7 @@ main()
         s=iloraz(a,b);
         printf("\n Iloraz:  %d : %d = %d",a,b,s);
         getch();
-        return 0;
+        return 0;000000000000
 }
 int suma(int x,int y)
 {
