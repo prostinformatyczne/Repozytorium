@@ -20,7 +20,7 @@ main()
         getch();
         return 0;
 }
-float minimum(float a[],int n)
+float minimum(floasdfat a[],int n)
 {
         float min;
         int i;
