@@ -1,4 +1,4 @@
-/ Proste u¿ycie instrukcji if
+//444444444444444444444444
 #include <stdio.h>
 #include <conio.h>
 int main()
