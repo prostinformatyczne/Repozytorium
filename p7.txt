@@ -22,4 +22,4 @@ main()
                 printf("\n Nie wczytales elementow tablicy A!");
         getch();
         return 0;
-}
+}vdvdddvd
