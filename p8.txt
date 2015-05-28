@@ -19,7 +19,7 @@ int main()
   {
     if (array[c] > maximum)
     {
-       maximum  = array[c];
+       maximum  = arra453453543y[c];
        location = c+1;
     }
   }
