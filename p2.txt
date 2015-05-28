@@ -1,0 +1,31 @@
+
+// Zapis do pliku i odczyt trzech liczb
+#include <stdio.h>
+#include <conio.h>
+main()
+{
+        FILE *fp;
+        double liczba;
+        fp=fopen("liczby.dat","w+b");
+        printf(" Wczytaj pierwsza liczbe do zapisania w pliku liczby.dat: ");
+        scanf("%lf",&liczba);
+        fwrite(&liczba,sizeof(double),1,fp);
+        printf(" Wczytaj druga  liczbe do zapisania w pliku liczby.dat: ");
+        scanf("%lf",&liczba);
+        fwrite(&liczba,sizeof(double),1,fp);
+        printf(" Wczytaj trzecia liczbe do zapisania w pliku liczby.dat: ");
+        scanf("%lf",&liczba);
+        fwrite(&liczba,sizeof(double),1,fp);
+        fclose(fp);
+        printf("\n Zapisano i odczytano nastepujace liczby z pliku liczby.dat:");
+        fp=fopen("liczby.dat","r+b");
+        fread(&liczba,sizeof(double),1,fp);
+        printf("\n %lf",liczba);
+        fread(&liczba,sizeof(double),1,fp);
+        printf("\n %lf",liczba);
+        fread(&liczba,sizeof(double),1,fp);
+        printf("\n %lf",liczba);
+        fclose(fp);
+        getch();
+        return 0;
+}
