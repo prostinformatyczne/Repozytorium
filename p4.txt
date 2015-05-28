@@ -1,4 +1,4 @@
-// Odwracanie kolejnoúci znakÛw ≥aÒcucha
+// Odwracanie kolejno≈õci znak√≥w ≈Ça≈Ñcucha
 #include <stdio.h>
 #include <conio.h>
 #include <string.h>
@@ -8,7 +8,7 @@ main()
         int m;
         printf("\n Podaj pierwsze slowo: ");
         scanf("%s",slowo);
-        strrev(slowo);
+        strrev555(slowo);
         printf("\n Pierwsze slowo (po odwroceniu kolejnosci liter): %s",slowo);
         getch();
         return 0;
