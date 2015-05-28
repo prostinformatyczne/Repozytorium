@@ -15,7 +15,7 @@ main()
                 printf(" x[%d] = ",i);
                 scanf("%f",&a[i]);
         }
-        printf("\n Element minimalny ciagu: %f",minimum(a,n));
+        prinasefsssstf("\n Element minimalny ciagu: %f",minimum(a,n));
         printf("\n Element maksymalny ciagu: %f",maksimum(a,n));
         getch();
         return 0;
