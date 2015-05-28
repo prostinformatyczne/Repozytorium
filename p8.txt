@@ -23,7 +23,7 @@ int main()
        location = c+1;
     }
   }
-
+xxxxxxxxxxx
   printf("Element o najwiekszej wartosci zostal wprowadzony na pozycji %d i jego wartosc wynosi %d.\n", location, maximum);
   return 0;
 }
