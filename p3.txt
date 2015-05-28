@@ -6,4 +6,4 @@ data_koncowa DATETIME NULL,
 opis VARCHAR(200) NULL,
 PRIMARY KEY (id_zadania),
 UNIQUE INDEX id_zadania_UNIQUE (id_zadania ASC)
-); 
+); zzz
