@@ -1,0 +1,15 @@
+// Odwracanie kolejnoœci znaków ³añcucha
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+main()
+{
+        char slowo[10];
+        int m;
+        printf("\n Podaj pierwsze slowo: ");
+        scanf("%s",slowo);
+        strrev(slowo);
+        printf("\n Pierwsze slowo (po odwroceniu kolejnosci liter): %s",slowo);
+        getch();
+        return 0;
+}

@@ -1,0 +1,9 @@
+CREATE TABLE zadania (
+id_zadania INT NOT NULL,
+tytul VARCHAR(45) NULL,
+data_poczatkowa DATETIME NULL,
+data_koncowa DATETIME NULL,
+opis VARCHAR(200) NULL,
+PRIMARY KEY (id_zadania),
+UNIQUE INDEX id_zadania_UNIQUE (id_zadania ASC)
+); 

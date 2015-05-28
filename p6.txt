@@ -1,0 +1,51 @@
+
+#include <stdio.h>
+#include <conio.h>
+main()
+{
+        void wczytywanie(int [],int );
+        void drukowanie(int [],int );
+        int a[10],b[10],k,m,n;
+        do
+        {
+                printf("\n Podaj ilosc elementow ciagu a:\n m = ");
+                k=scanf("%d",&m);
+                fflush(stdin);
+        }
+        while(k==0||m<1||m>10);
+        printf("\n Wczytaj tablice a:\n");
+        wczytywanie(a,m);
+        do
+        {
+                printf("\n Podaj ilosc elementow ciagu b:\n n = ");
+                k=scanf("%d",&n);
+                fflush(stdin);
+        }
+        while(k==0||n<1||n>10);
+        printf("\n Wczytaj tablice b:\n");
+        wczytywanie(b,n);
+        printf("\n\n Tablica a:\n");
+        drukowanie(a,m);
+        printf("\n\n Tablica b:\n");
+        drukowanie(b,n);
+        getch();
+        return 0;
+  }
+void wczytywanie(int a[],int n)
+{
+        int i,k;
+        for(i=0;i<n;i++)
+                do
+                {
+                        printf("\n element %d = ",i);
+                        k=scanf("%d",&a[i]);
+                        fflush(stdin);
+                }
+                while(k==0);
+}
+void drukowanie(int a[],int n)
+{
+        int i;
+        for(i=0;i<n;i++)
+                printf("\n element %d = %d",i,a[i]);
+}

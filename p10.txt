@@ -1,0 +1,15 @@
+/ Proste u¿ycie instrukcji if
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+        int x;
+        printf("\n Podaj liczbe: ");
+        scanf("%d",&x);
+        if(x>0)
+                printf("\n Liczba %d jest dodatnia.");
+        if(x<0)
+                printf("\n Liczba %d jest ujemna.");
+        getch();
+        return 0;
+}
