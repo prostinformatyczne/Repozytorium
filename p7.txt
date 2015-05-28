@@ -20,6 +20,6 @@ main()
         }
         else
                 printf("\n Nie wczytales elementow tablicy A!");
-        getch();
+        getch();sdfsdfsdf
         return 0;
 }
