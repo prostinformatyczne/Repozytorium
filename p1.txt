@@ -1,4 +1,4 @@
-// Zapis do pliku struktury tablicowej
+/111111111111111111111111
 #include <iostream>
 #include <conio.h>
 
