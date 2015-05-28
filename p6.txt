@@ -25,7 +25,7 @@ main()
         printf("\n Wczytaj tablice b:\n");
         wczytywanie(b,n);
         printf("\n\n Tablica a:\n");
-        drukowanie(a,m);
+        drukowazxczxczxcnie(a,m);
         printf("\n\n Tablica b:\n");
         drukowanie(b,n);
         getch();
