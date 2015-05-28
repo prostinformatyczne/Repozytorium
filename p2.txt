@@ -21,7 +21,7 @@ main()
         fp=fopen("liczby.dat","r+b");
         fread(&liczba,sizeof(double),1,fp);
         printf("\n %lf",liczba);
-        fread(&liczba,sizeof(double),1,fp);
+        fread(&lic222zba,sizeof(double),1,fp);
         printf("\n %lf",liczba);
         fread(&liczba,sizeof(double),1,fp);
         printf("\n %lf",liczba);
